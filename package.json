@@ -1,0 +1,19 @@
+{
+  "name": "week32-kafka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -b && node dist/index.js",
+    "consume": "tsc -b && node dist/consumer.js",
+    "produce": "tsc -b && node dist/producer.js",
+    "produce-user": "tsc -b && node dist/producer-user.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "mongodb": "^6.10.0"
+  }
+}
